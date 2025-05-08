@@ -35,13 +35,13 @@ export default function WeatherApp() {
       case "cloud":
         return <FontAwesomeIcon icon={faCloud} size="2x" />;
       case "cloud-sun":
-        return <FontAwesomeIcon icon={faCloud} size="2x" />;
+        return <FontAwesomeIcon icon={faCloudSun} size="2x" />;
       case "sun":
-        return <FontAwesomeIcon icon={faCloud} size="2x" />;
+        return <FontAwesomeIcon icon={faSun} size="2x" />;
       case "cloud-rain":
-        return <FontAwesomeIcon icon={faCloud} size="2x" />;
+        return <FontAwesomeIcon icon={faCloudRain} size="2x" />;
       default:
-        return <FontAwesomeIcon icon={faCloud} size="2x" />;
+        return <FontAwesomeIcon icon={faSearch} size="2x" />;
     }
   };
 
