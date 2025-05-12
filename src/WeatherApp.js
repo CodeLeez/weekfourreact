@@ -7,6 +7,7 @@ import {
   faCloudRain,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
+import "./WeatherApp.css";
 
 export default function WeatherApp() {
   const [city, setCity] = useState("");
