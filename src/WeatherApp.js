@@ -116,11 +116,11 @@ export default function WeatherApp() {
               Elizabeth Chigudu
             </a>{" "}
             and is{" "}
-            <a href="https://github.com/CodeLeez?tab=repositories">
+            <a href="https://github.com/CodeLeez/weekfourreact">
               open-sourced on GitHub
             </a>{" "}
             and{" "}
-            <a href="https://app.netlify.com/teams/codeleez/sites">
+            <a href="https://app.netlify.com/sites/reactweather111/overview">
               {" "}
               hosted on Netlify
             </a>
