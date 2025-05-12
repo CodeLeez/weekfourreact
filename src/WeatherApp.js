@@ -49,12 +49,6 @@ export default function WeatherApp() {
     <div className="weather-app">
       <div className="container">
         <header className="header">
-          <div className="logo">
-            <img
-              src="https://www.shecodes.io/assets/branding/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png"
-              alt="SheCodes Logo"
-            />
-          </div>
           <form className="search-form" onSubmit={handleSearch}>
             <input
               type="text"
