@@ -6,7 +6,7 @@ import {
   faSun,
   faCloudRain,
   faSearch,
-} from "@fortawesome/react-fontawesome";
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function WeatherApp() {
   const [city, setCity] = useState("");
