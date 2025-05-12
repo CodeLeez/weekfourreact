@@ -10,7 +10,7 @@ import {
 
 export default function WeatherApp() {
   const [city, setCity] = useState("");
-  const [weatherData, setWeatherData] = useState({
+  const [weatherData] = useState({
     city: "Shanghai",
     temperature: 37,
     humidity: 94,
